@@ -20,7 +20,7 @@ X = dataset.iloc[:, [2, 3]].values
 # Definindo a coluna 4 como atributo Classe (Preditivo)
 y = dataset.iloc[:, 4].values
 
-# Separando o conjunto de dados em conjunto de treinamento e deteste
+# Separando o conjunto de dados em conjunto de treinamento e de teste
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.25, random_state = 0)
 
 # Normalizando os dados

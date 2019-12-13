@@ -1,0 +1,5 @@
+Algoritmo;Variáveis;Valores
+KNN;k | weights | p;17 | 'distance' | 1
+MLP;hidden_layer_sizes | max_iter | alpha | solver | verbose | random_state | tol;(100,100,100) | 500 | 0.0001 | 'sgd' | 10 | 21 | 0.000000001)
+Bayes;não permite modificações;-
+SVM;gamma | C;0.001 | 100
